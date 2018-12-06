@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 4) do
     t.string "name"
     t.integer "artist_id"
     t.integer "genre_id"
+    t.string "genre"
   end
 
 end
